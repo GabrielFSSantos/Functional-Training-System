@@ -1,0 +1,177 @@
+INSERT INTO public."Nutricionista"(
+	nome, "CPF", email, telefone, salario, especialidade, senha)
+	VALUES ('Aline Soarez', '111.999.222-33', 'saline89@jnail.com', '455554465', '4000', 'Nutrição esportiva', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Hércules de Oliveira Júnior', '444.566.677-44', 'herculesJ@jnail.com', '344470707', '3000', 'Nutrição fortalecimento', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Guilhermo Guimarães Nascimento', '888.555.885-66', 'guigui12@jnail.com', '999687099', '3000', 'Nutrição emagrecimento', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Hipatia dos Santos', '999.343.499-55', 'hipatia111@jnail.com', '707070808', '3500', 'Nutrição fortalecimento', 'e10adc3949ba59abbe56e057f20f883e'),
+	('João Goulart', '422.272.788-99', 'jango@jnail.com', '934993333', '3000', 'Nutrição esportiva', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Joana Darc Pereira', '555.777.888-55', 'darcside@jnail.com', '454545999', '3000', 'Nutrição emagrecimento', 'e10adc3949ba59abbe56e057f20f883e');
+
+INSERT INTO public."Aluno"(
+	nome, "CPF", email, telefone, dia_pagamento, sexo, dt_nascimento, imagem, ficha_alimentacao, restricao, "CPF_Nutricionista")
+	VALUES ('Houston Clapton', '766.677.878-66', 'houston@jnail.com','445556464', 6, 'm', '1980-07-13', null, 'Alimentação rica em carboidratos. Evitar alimenos gordurosos.', 'Demasiado esforços no joelho esquerdo.', '111.999.222-33'),
+	('Fatmagul Souza', '918.890.909-08', 'fatSouza45@jnail.com','908908908', 4, 'f', '1991-01-01', null, 'Alimentação balanceada, rica em proteínas. Comer muitas frutas e vegetais.', 'Exercícios prolongados sem descanso.', '888.555.885-66'),
+	('Isaac Clarke', '110.101.129-11', 'isaclarke123@jnail.com','676788934', 4, 'm', '1998-12-29', null, 'Alimentação rica em fibras. Opitar por carnes magras', 'Doces em geral e exercícios que forçam a coluna.', '444.566.677-44'),
+	('Olga Cardoso Pascoal', '253.039.998-77', 'olguinha21@jnail.com','894747479', 7, 'f', '1975-04-20', null, 'Alimentação rica em fibras e proteínas. Comer bastante cereais e grãos.', 'Alimentos com muito sal.', '444.566.677-44'),
+	('Rubi Carvalho Crepalde', '777.677.891-20', 'rubi8@jnail.com','556589000', 4, 'f', '1988-04-21', null, 'Alimentação rica em cálcio . Comer bastante derivados do leite.', 'Nenhuma.', '422.272.788-99'),
+	('Maria das Dores', '922.209.398-22', 'dasdores44@jnail.com','345567789', 6, 'f', '1979-08-18', null, 'Alimentação rica em cálcio e carboidratos.', 'Exercícios que force os quadris.', '422.272.788-99'),
+	('Riquelme Pinto Coelho', '883.322.002-29', 'Riquelme00@jnail.com','455049404', 4, 'm', '1999-11-03', null, 'Alimentação balanceada e equilibrada. Comer muitas frutas e optar por carnes magras.', 'Alimentos que contém glúten ou lactose.', '999.343.499-55'),
+	('Aline Ribeirão Chagas', '611.282.811-28', 'alineRib90@jnail.com','456545353', 6, 'f', '2000-09-07', null, 'Alimentação rica em carboidratos e proteínas. Comer bastante cereais e grãos.', 'Exercícios prolongados sem descanso e alimentos com glúten.', '999.343.499-55'),
+	('Leonidas Lepoldo', '901.909.092-92', 'leolep12@jnail.com','787998709', 4, 'm', '1997-12-10', null, 'Alimentação rica em carboidratos e proteínas. Comer bastante cereais e grãos.', 'Exercícios prolongados sem descanso e esforços no joelho direito.', '999.343.499-55'),
+	('Heliane Nakamura', '666.787.899-80', 'heli8999@jnail.com','636273647', 7, 'f', '1969-08-27', null, 'Alimentação balanceada, saudável e equilibrada. Comer batata doce, frango e frutas.', 'Alimentos que contenham amendoim.', '111.999.222-33'),
+	('Kennedy Galhardo', '883.281.099-94', 'galhardo67@jnail.com','121232100', 6, 'm', '1999-03-23', null, 'Alimentação rica e cálcio, fibras e proteína. Comer frango, frutas e grãos', 'Demasiados esforços na perna direitas. Alimentos com muito sal.', '888.555.885-66'),
+	('Udison Valadares Estáquio', '555.695.940-56', 'udEstaquio@jnail.com','787987898', 4, 'm', '1977-04-13', null, 'Alimentação rica em carboidratos. Evitar alimenos gordurosos.', 'Alimentos com muito sal.', '444.566.677-44'),
+	('Letícia Fagundes Felicia', '982.785.339-22', 'leticia@jnail.com','445343543', 7, 'f', '1989-04-10', null, 'Alimentação rica de fibras e proteínas. Comer bastante cereais e frutas', 'Exercícios que forcem muito a coluna.', '888.555.885-66'),
+	('Tales Alves Marques', '343.476.876-36', 'talesAlv7@jnail.com','765645565', 4, 'm', '1989-08-18', null, 'Alimentação balanceada, saudável e rica de proteínas. Comer bastante cereais ,legumes e Carnes vermelhas', 'Doces e alimentos com lactose.', '111.999.222-33'),
+	('Lara Croft da Silva', '565.676.709-99', 'lara783@jnail.com','232437879', 4, 'f', '1992-10-13', null, 'Alimentação rica em fibras e proteínas. Comer bastante cereais e grãos.', 'Alimentos com muito sal.Exercícios que forcem muito a coluna.', '444.566.677-44');
+
+INSERT INTO public."Instrutor"(
+	nome, "CPF", email, telefone, salario, especialidade, senha)
+	VALUES ('Berta Rodriguez', '319.191.876-11', 'berta56@jnail.com', '198727211', 5000, 'Musculação' , 'e10adc3949ba59abbe56e057f20f883e'),
+	('Júlio Cesar Silva', '181.991.827-00', 'cesarsilva@jnail.com', '374478921', 2500, 'CrossFit' , 'e10adc3949ba59abbe56e057f20f883e'),
+	('Agata Christie', '787.898.787-90', 'agata@jnail.com', '363637363', 5000, 'Dança' , 'e10adc3949ba59abbe56e057f20f883e'),
+	('Alan Turing', '740.004.344-02', 'alan00@jnail.com', '469765911', 4000, 'Aérobica' , 'e10adc3949ba59abbe56e057f20f883e');
+
+INSERT INTO public."Administrativo"(
+	nome, "CPF", email, telefone, salario, especialidade, senha)
+	VALUES ('Pedro Lucas Dantes', '444.494.848-09', 'plucas3@jnail.com', '755655453', 6000, 'Diretor', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Rodriguez do Santos', '588.909.897-66', 'rodrigue12@jnail.com', '566859485', 4000, 'Secretário', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Tales Carvalho de Souza', '171.753.256-78', 'talcar@jnail.com', '897612234', 5000, 'Supervisor', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Admin Principal', '123.456.789-10', 'admin@email.com', '90908080', 0, 'Admin Geral', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Letícia Pereira Silva', '775.757.584-84', 'letsilva@jnail.com', '678906789', 4000, 'Secretário', 'e10adc3949ba59abbe56e057f20f883e');
+
+
+INSERT INTO public."Turma"(
+	quantidade, horarios, "CPF_Instrutor")
+	VALUES (5, '8h00 às 10h00|Nenhum|8h00 às 10h00|Nenhum|8h00 às 10h00', '787.898.787-90'),
+	(6, 'Nenhum|20h00 às 22h00|Nenhum|18h00 às 20h00|Nenhum', '740.004.344-02'),
+	(4, '10h00 às 12h00|8h00 às 10h00|10h00 às 12h00|8h00 às 10h00|10h00 às 12h00', '181.991.827-00'),
+	(5, '15h00 às 17h00|Nenhum|Nenhum|13h00 às 15h00|Nenhum', '319.191.876-11');
+
+INSERT INTO public."Turma_Aluno"(
+	"id_Turma", "CPF_Aluno")
+	VALUES (1, '766.677.878-66'),
+	(1,'918.890.909-08'),
+	(1,'110.101.129-11'),
+	(1,'253.039.998-77'),
+	(1,'777.677.891-20'),
+	(2,'922.209.398-22'),
+	(2,'883.322.002-29'),
+	(2,'611.282.811-28'),
+	(2,'901.909.092-92'),
+	(2,'666.787.899-80'),
+	(2,'883.281.099-94'),
+	(3,'555.695.940-56'),
+	(3,'982.785.339-22'),
+	(3,'343.476.876-36'),
+	(3,'565.676.709-99'),
+	(4,'766.677.878-66'),
+	(4,'922.209.398-22'),
+	(4,'565.676.709-99'),
+	(4,'883.322.002-29');
+
+INSERT INTO public."Pagamento"(
+	valor, data, "CPF_Aluno", multa)
+	VALUES (100, '2019-11-8','766.677.878-66', true),
+	(90, '2019-11-1','918.890.909-08', false),
+	(100, '2019-11-3','110.101.129-11', false),
+	(90, '2019-11-14','253.039.998-77', true),
+	(90, '2019-11-4','777.677.891-20', false),
+	(90, '2019-11-16','922.209.398-22', true),
+	(100,'2019-11-03','883.322.002-29', false),
+	(90, '2019-11-03','611.282.811-28', false),
+	(100, '2019-11-14','901.909.092-92', true),
+	(90, '2019-11-7','666.787.899-80', false),
+	(100, '2019-11-5','883.281.099-94', false),
+	(100, '2019-11-3','555.695.940-56', false),
+	(90, '2019-11-3','982.785.339-22', false),
+	(100, '2019-11-4','343.476.876-36', false),
+	(90, '2019-11-5','565.676.709-99', true);
+
+INSERT INTO public."Avaliacao"(
+	altura, peso, porcentagem_gordura, porcentagem_massa, data, "CPF_Aluno")
+	VALUES (1.85, 98 , 25, 39, '2019-06-06','766.677.878-66'),
+	(1.71, 65 , 18, 27, '2019-07-12','918.890.909-08'),
+	(1.78, 80 , 20, 45, '2019-04-20','110.101.129-11'),
+	(1.65, 50 , 20, 29, '2019-06-17','253.039.998-77'),
+	(1.83, 79 , 17, 42, '2019-08-02','777.677.891-20'),
+	(1.72, 82 , 40, 25, '2019-04-20','922.209.398-22'),
+	(1.73, 70 , 18, 44, '2018-11-28','883.322.002-29'),
+	(1.55, 51 , 17, 36, '2019-11-05','611.282.811-28'),
+	(1.79, 85 , 27, 25, '2019-08-05','901.909.092-92'),
+	(1.60, 47 , 15, 28, '2018-10-14','666.787.899-80'),
+	(1.99, 130 , 30, 39, '2019-01-30','883.281.099-94'),
+	(1.89, 90 , 21, 36, '2019-08-27','555.695.940-56'),
+	(1.67, 68 , 22, 28, '2019-11-08','982.785.339-22'),
+	(1.70, 78 , 26, 26, '2019-08-05','343.476.876-36'),
+	(1.92, 95 , 28, 25, '2017-01-09','565.676.709-99');
+
+INSERT INTO public."Equipamento"(
+	id, nome, status, p_manutencao, u_manutencao)
+	VALUES (1, 'Estação Musculação', 'Indisponivel', '2019-12-20', '2019-04-18'),
+	(2, 'Banco de supino', 'Disponivel', '2020-02-15', '2019-04-18'),
+	(3, 'Smith', 'Indisponivel', '2020-02-19', '2019-05-15'),
+	(4, 'Esteira', 'Disponivel','2019-12-18','2018-09-01'),
+	(5, 'Bicicleta Erg.', 'Disponivel','2019-11-29','2019-02-26'),
+	(6, 'Gaiola funcional', 'Indisponivel', '2020-05-25','2019-08-18'),
+	(7, 'Banco de pliometria', 'Disponivel', '2020-06-03', '2019-06-08'),
+	(8, 'Elíptico', 'Disponivel', '2020-08-24','2018-07-14'),
+	(9, 'Trampolim', 'Disponivel', '2020-03-19', '2019-04-03');
+
+INSERT INTO public."Exercicio"(
+	nome, "CPF_Aluno", repeticao, "id_Equipamento")
+	VALUES ('Treino de pernas e ombros','766.677.878-66', 50 , 1),
+	('Agachamento','918.890.909-08', 60 , 1),
+	('Agachamento','110.101.129-11', 75 , 1),
+	('Levantar peso', '253.039.998-77', 50, 2),
+	('Exercicio de peitoral', '777.677.891-20', 45, 2),
+	('Remada alta', '922.209.398-22', 70, 3),
+	('Remada baixa','883.322.002-29', 80, 3),
+	('Remada baixa','611.282.811-28', 75, 3),
+	('Corrida leve','901.909.092-92', 1, 4),
+	('Pedalar','666.787.899-80', 1,5),
+	('Flexão na barra','883.281.099-94',90,6),
+	('Salto no banco','555.695.940-56',35,7),
+	('Jump','982.785.339-22',100, 9),
+	('Jump','343.476.876-36',200, 9),
+	('Jump','565.676.709-99',130, 9),
+	('Jump','666.787.899-80',130, 9);
+
+INSERT INTO public."Agendamento"(
+	"CPF_Aluno", descricao, data_hora)
+	VALUES ('922.209.398-22', 'Consulta marcada com o nutricioniasta Hércules de Oliveira Júnior.', '2019-12-15 9:00:00'),
+	('565.676.709-99', 'Horário marcado com o Supervisor.', '2020-01-15 16:30:00'),
+	('901.909.092-92', 'Horário marcado com o Diretor.', '2019-12-05 16:30:00'),
+	('883.322.002-29', 'Consulta marcada com a nutricioniasta Hipatia dos Santos', '2019-12-05 9:00:00'),
+	('982.785.339-22', 'Horário marcado com o Supervisor.', '2019-12-01 16:30:00'),
+	('343.476.876-36', 'Consulta marcada com a nutricioniasta Aline Soarez', '2019-12-10 9:30:00'),
+	('565.676.709-99', 'Consulta marcada com o nutricioniasta Hércules de Oliveira Júnior', '2019-12-12 9:00:00');
+
+INSERT INTO public."Funcionario"(
+	nome, "CPF", email, telefone, salario, especialidade, senha)
+	VALUES ('Aline Soarez', '111.999.222-33', 'saline89@jnail.com', '455554465', '4000', 'Nutrição esportiva', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Hércules de Oliveira Júnior', '444.566.677-44', 'herculesJ@jnail.com', '344470707', '3000', 'Nutrição fortalecimento', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Guilhermo Guimarães Nascimento', '888.555.885-66', 'guigui12@jnail.com', '999687099', '3000', 'Nutrição emagrecimento', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Hipatia dos Santos', '999.343.499-55', 'hipatia111@jnail.com', '707070808', '3500', 'Nutrição fortalecimento', 'e10adc3949ba59abbe56e057f20f883e'),
+	('João Goulart', '422.272.788-99', 'jango@jnail.com', '934993333', '3000', 'Nutrição esportiva', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Joana Darc Pereira', '555.777.888-55', 'darcside@jnail.com', '454545999', '3000', 'Nutrição emagrecimento', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Berta Rodriguez', '319.191.876-11', 'berta56@jnail.com', '198727211', 5000, 'Musculação' , 'e10adc3949ba59abbe56e057f20f883e'),
+	('Júlio Cesar Silva', '181.991.827-00', 'cesarsilva@jnail.com', '374478921', 2500, 'CrossFit' , 'e10adc3949ba59abbe56e057f20f883e'),
+	('Agata Christie', '787.898.787-90', 'agata@jnail.com', '363637363', 5000, 'Dança' , 'e10adc3949ba59abbe56e057f20f883e'),
+	('Alan Turing', '740.004.344-02', 'alan00@jnail.com', '469765911', 4000, 'Aérobica' , 'e10adc3949ba59abbe56e057f20f883e'),
+	('Pedro Lucas Dantes', '444.494.848-09', 'plucas3@jnail.com', '755655453', 6000, 'Diretor', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Rodriguez do Santos', '588.909.897-66', 'rodrigue12@jnail.com', '566859485', 4000, 'Secretário', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Tales Carvalho de Souza', '171.753.256-78', 'talcar@jnail.com', '897612234', 5000, 'Supervisor', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Admin Principal', '123.456.789-10', 'admin@email.com', '90908080', 0, 'Admin Geral', 'e10adc3949ba59abbe56e057f20f883e'),
+	('Letícia Pereira Silva', '775.757.584-84', 'letsilva@jnail.com', '678906789', 4000, 'Secretário', 'e10adc3949ba59abbe56e057f20f883e');
+
+INSERT INTO public."Gastos"(
+valor, data, descricao, "CPF_Funcionario")
+	VALUES (250,'2019-11-01' , 'Conta de luz.','171.753.256-78'),
+	(400, '2019-11-01', 'Manutenção da Estação Musculação.','319.191.876-11'),
+	(150, '2019-11-10', 'Conta de água.','171.753.256-78'),
+	(100, '2019-11-05', 'Manutenção da Esteira.', '181.991.827-00'),
+	(2500, '2019-10-23', 'Reforma dos banheiros.','775.757.584-84'),
+	(2000, '2019-10-15', 'Reforma pintura de parede.','444.494.848-09'),
+	(150, '2019-11-05', 'Faxina', '171.753.256-78');
+	
