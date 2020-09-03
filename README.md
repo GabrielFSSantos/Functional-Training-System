@@ -39,6 +39,8 @@
 
 * [Java] - Linguagem utilizada para todo o desenvolvimento.
 * [JFrame] - Classe Java que é possível criar interfaces gráficas.
+* [PostgreSQL] - SQL utilizado para criação do Banco de Dados.
+* [pgModeler] - PostgreSQL Database Modeler
 * [Netbeans] - Ótimo editor de texto e API Java.
 * [StackEdit] - Excelente editor de Markdown online.
 
@@ -49,5 +51,7 @@
 
 [Java]: <https://www.java.com/pt_BR/>
 [JFrame]: <https://docs.oracle.com/javase/7/docs/api/javax/swing/JFrame.html>
+[PostgreSQL]: <https://www.postgresql.org/>
+[pgModeler]: <https://pgmodeler.io/>
 [Netbeans]: <https://netbeans.org/>
 [StackEdit]: <https://stackedit.io/>
