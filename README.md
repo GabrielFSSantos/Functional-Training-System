@@ -1,7 +1,7 @@
 
 # Open Source Functional_Training_System
 ![Developer](https://img.shields.io/badge/GabrielFSSantos-Functional__Training__System-blue)
-[![licence mit](https://img.shields.io/github/license/GabrielFSSantos/Functional_Training_System)](https://github.com/GabrielFSSantos/Functional_Training_System/blob/master/LICENSE.md)
+[![licence mit](https://img.shields.io/github/license/GabrielFSSantos/Functional_Training_System)](https://github.com/GabrielFSSantos/TypeScript/blob/master/LICENSE)
 
 > :bicyclist: Functional_Training_System é um projeto completo e funcional para uso em academias e estabelecimentos com foco em treinamentos. O sistema exerce o papel de administração total do local, contando com gerenciamento de funcionários, alunos, equipamentos, horários e demais funcionalidades que permitem que o sistema integre todo o centro de treinamento e agilize os processos.   <br>
 
@@ -45,7 +45,7 @@
 * [StackEdit] - Excelente editor de Markdown online.
 
 ## License
-[MIT License](https://github.com/afonsopacifer/open-source-boilerplate/blob/master/LICENSE.md) ©
+[MIT License](https://github.com/GabrielFSSantos/TypeScript/blob/master/LICENSE)
 
 
 
